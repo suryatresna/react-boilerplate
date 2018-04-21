@@ -7,19 +7,27 @@ this project build for who wanna develop with docker and it easy to develop with
 
 Setup docker
 
-  docker-compose build
+```
+docker-compose build
+```
 
 Run Project
 
-  docker-compose up
+```
+docker-compose up
+```
 
 If you wanna see what container runs
 
+```
   docker-compose ps
+```
 
 If wanna take down the container runs
 
+```
   docker-compose down
+```
 
 # Source Origin Project
 This project sourced from [https://www.reactboilerplate.com](https://www.reactboilerplate.com)
