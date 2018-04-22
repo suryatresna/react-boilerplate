@@ -38,7 +38,7 @@ docker-compose down
 Run test 
 
 ```
-docker-compose run geekdisq_app npm run test
+docker-compose run app npm run test
 ```
 
 # Source Origin Project

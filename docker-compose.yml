@@ -1,6 +1,6 @@
 version: '3'
 services:
-  geekdisq_app:
+  app:
     build:
       context: ./
       dockerfile: Dockerfile
@@ -12,12 +12,12 @@ services:
     depends_on:
       - redis
     environment:
-      GEEKDISQ_REDIS_DEV: geekdisq.redis.local
+      GEEKDISQ_REDIS_DEV: app.redis.local
     command: ['npm', 'start']
-    container_name: geekdisq.app.local
+    container_name: app.app.local
 
   redis:
     image: redis:latest
     ports:
       - 6379:6379
-    container_name: geekdisq.redis.local
+    container_name: app.redis.local
