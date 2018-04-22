@@ -17,16 +17,28 @@ Run Project
 docker-compose up
 ```
 
+Stop project
+
+```
+docker-compose stop
+```
+
 If you wanna see what container runs
 
 ```
-  docker-compose ps
+docker-compose ps
 ```
 
-If wanna take down the container runs
+If wanna take down the project
 
 ```
-  docker-compose down
+docker-compose down
+```
+
+Run test 
+
+```
+docker-compose run geekdisq_app npm run test
 ```
 
 # Source Origin Project
